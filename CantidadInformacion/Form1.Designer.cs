@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             this.btnArchivo = new System.Windows.Forms.Button();
             this.radEscribri = new System.Windows.Forms.RadioButton();
             this.radArchivo = new System.Windows.Forms.RadioButton();
@@ -41,7 +43,10 @@
             this.CI = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Entropia = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.openFile = new System.Windows.Forms.OpenFileDialog();
+            this.grafica = new System.Windows.Forms.DataVisualization.Charting.Chart();
             ((System.ComponentModel.ISupportInitialize)(this.dtgProbabilidades)).BeginInit();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.grafica)).BeginInit();
             this.SuspendLayout();
             // 
             // btnArchivo
@@ -114,6 +119,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.grafica);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel1.Location = new System.Drawing.Point(689, 0);
             this.panel1.Name = "panel1";
@@ -149,6 +155,22 @@
             // 
             this.openFile.FileName = "openFileDialog1";
             // 
+            // grafica
+            // 
+            this.grafica.BorderlineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.DashDot;
+            this.grafica.BorderlineWidth = 4;
+            chartArea1.Name = "ChartArea1";
+            this.grafica.ChartAreas.Add(chartArea1);
+            this.grafica.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend1.Name = "Legend1";
+            this.grafica.Legends.Add(legend1);
+            this.grafica.Location = new System.Drawing.Point(0, 0);
+            this.grafica.Name = "grafica";
+            this.grafica.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Pastel;
+            this.grafica.Size = new System.Drawing.Size(459, 460);
+            this.grafica.TabIndex = 0;
+            this.grafica.Text = "chart1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -164,6 +186,8 @@
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dtgProbabilidades)).EndInit();
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.grafica)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -184,6 +208,7 @@
         private System.Windows.Forms.Button txtComenzar;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.OpenFileDialog openFile;
+        private System.Windows.Forms.DataVisualization.Charting.Chart grafica;
     }
 }
 
