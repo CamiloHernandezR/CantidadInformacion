@@ -1,0 +1,9 @@
+C:\Users\magnu\Desktop\CuatriActual\Seguridad\CantidadDeInformacion\CantidadInformacion\bin\Debug\CantidadInformacion.exe.config
+C:\Users\magnu\Desktop\CuatriActual\Seguridad\CantidadDeInformacion\CantidadInformacion\bin\Debug\CantidadInformacion.exe
+C:\Users\magnu\Desktop\CuatriActual\Seguridad\CantidadDeInformacion\CantidadInformacion\bin\Debug\CantidadInformacion.pdb
+C:\Users\magnu\Desktop\CuatriActual\Seguridad\CantidadDeInformacion\CantidadInformacion\obj\Debug\CantidadInformacion.csprojAssemblyReference.cache
+C:\Users\magnu\Desktop\CuatriActual\Seguridad\CantidadDeInformacion\CantidadInformacion\obj\Debug\CantidadInformacion.Form1.resources
+C:\Users\magnu\Desktop\CuatriActual\Seguridad\CantidadDeInformacion\CantidadInformacion\obj\Debug\CantidadInformacion.Properties.Resources.resources
+C:\Users\magnu\Desktop\CuatriActual\Seguridad\CantidadDeInformacion\CantidadInformacion\obj\Debug\CantidadInformacion.csproj.GenerateResource.cache
+C:\Users\magnu\Desktop\CuatriActual\Seguridad\CantidadDeInformacion\CantidadInformacion\obj\Debug\CantidadInformacion.exe
+C:\Users\magnu\Desktop\CuatriActual\Seguridad\CantidadDeInformacion\CantidadInformacion\obj\Debug\CantidadInformacion.pdb
